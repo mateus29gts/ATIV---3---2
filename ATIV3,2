@@ -1,0 +1,40 @@
+Scanner in = new Scanner(System.in);
+      String texto1 = "De quantos numeros vc quer tirar o mmc?";
+      String texto2 = "Quais numeros vc quer que tire o mmc?";
+      int quant=0;
+      int result = 0;
+      int[] num = new int[quant]; 
+        System.out.println(texto1);
+        quant=in.nextInt();
+        for(int i =0;i<quant;i++){
+        System.out.println(texto2);
+        num[i]=in.nextInt();
+    }
+   
+
+    while (tudo1(num) == true){
+        
+    }
+ public static boolean primo (int[] num){
+  for (int i =2; i<num.length-1; i++){ // variavel i começamndo em 2 pois eu decidir, condição vai até o numero menos 1, t´po 39 se o numero for 40, i++ sempre pra aumentar 1 ate a ondição for falso.
+    while (!num[]==0){     
+      return true;  
+    }
+    if (primo [num] == true){
+        result = num[]\primo;
+        
+    }
+    
+    
+    
+    
+    return false;
+  }
+  
+  
+   public static int proxPrimo(int primo){
+        boolean prim=prim(primo);
+        int proxPrimo = 0;
+        while (!prim){
+          proxPrimo = primo + 1;
+        }
